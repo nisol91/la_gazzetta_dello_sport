@@ -1,6 +1,161 @@
 /* TYPHOGRAPHY & IMAGES */
 * {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+.nav-sx a,.nav-dx a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 12px;
+  margin-left: 10px;
+}
+.nav-sx i, .nav-dx i {
+  color: white;
+  font-size: 15px;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.nav-dx i {
+  margin-right: 10px;
+  color: #707070;
+}
+.nav-sx .fa-bars {
+  color: #f27800;
+  font-size: 12px;
+}
+.head-logo {
+  width: 370px;
+  height: 117px;
+  margin-top: -12px;
+  background: url('https://images2.gazzettaobjects.it/includes2013/LIBS/css/assets/Gazzetta_Elements.svg?v=201502260516') 0 34px no-repeat;
+}
+.video-i {
+  width: 19%;
+  border: 3px solid black;
+  position: relative;
+}
+.video-i h3 {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  bottom: 2px;
+  left: 10px;
+  font-weight: 700;
+}
+.menu-sx a {
+  text-decoration: none;
+}
+.menu-sx h3:hover {
+  color: #f27800;
+}
+.menu-sx h3 {
+  color: black;
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+#h-menu {
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 0px;
+  border-top: 3px solid black;
+  border-bottom: 1px solid grey;
+  padding: 10px 0;
+}
+.menu-sx i {
+  color: black;
+  font-size: 20px;
+  margin: 0 5px;
+}
+.play-cont i {
+  color: white;
+  position: absolute;
+  bottom: 3px;
+  right: 8px;
+}
+.main-c-top img {
+  width: 100%;
+}
+.img-container {
+  position: relative;
+  width: 100%;
+}
+.img-container h3 {
+  position: absolute;
+  left: 10px;
+  bottom: 20px;
 }
 /* DIV & CONTAINER  */
+body {
+  background: #fde9eb;
+}
+.flex-cont {
+  display: flex;
+}
+.head-nav {
+  background: black;
+  height: 50px;
+  justify-content: space-between;
+}
+.head-logo-cont {
+  height: 120px;
+  border-bottom: 1px solid lightgrey;
+  justify-content: center;
+}
+.active-i {
+  border-bottom: 4px solid #f27800;
+}
+.btn-red {
+  background: #da090c;
+  border-radius: 4px;
+  height: 30px;
+  margin-top: 9px;
+  margin-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+}
+.barr-a {
+  border-left: 0.3px solid rgb(68, 70, 69);
+  margin-left: 10px;
+}
+.video-s {
+  justify-content: center;
+  margin-top: 15px;
+}
+.play-cont {
+  border: 1px solid white;
+  border-radius: 3px;
+  width: 24px;
+  height: 23px;
+  padding: 0px 9px;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  background: rgba(82, 78, 80, 0.72);
+}
+.main-cont {
+  padding: 30px 65px;
+}
+.main-center {
+  padding: 0 40px;
+}
+.main-dx {
+  background: blue;
+  height: 2000px;
+  padding: 0 40px;
+}
+.menu-sx {
+  height: 100%;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  border-right: 1px solid grey;
+  padding-right: 0;
+}
+.black-belt {
+  background: black;
+}
 /* MEDIA QUERY */
