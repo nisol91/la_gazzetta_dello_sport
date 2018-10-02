@@ -2,6 +2,12 @@
 * {
   font-family: 'Roboto', sans-serif;
 }
+.head-nav a:hover {
+  color: grey;
+}
+.head-nav i:hover {
+  color: white;
+}
 .nav-sx a,.nav-dx a {
   color: white;
   text-decoration: none;
@@ -17,6 +23,7 @@
   margin-left: 10px;
 }
 .nav-dx i {
+  margin: 0;
   margin-right: 10px;
   color: #707070;
 }
@@ -31,9 +38,22 @@
   background: url('https://images2.gazzettaobjects.it/includes2013/LIBS/css/assets/Gazzetta_Elements.svg?v=201502260516') 0 34px no-repeat;
 }
 .video-i {
+  height: 120px;
   width: 19%;
   border: 3px solid black;
   position: relative;
+}
+/* .video-i img:hover {
+  transform: scale(1.5);
+  z-index: 1;
+} */
+.img-fix {
+  max-height: 100%;
+  min-width: 100%;
+}
+.img-fix-ii {
+    max-height: 69%;
+    min-width: 100%;
 }
 .video-i h3 {
   color: white;
@@ -51,15 +71,18 @@
 }
 .menu-sx h3 {
   color: black;
-  font-size: 13px;
-  font-weight: 400;
-  margin-top: 30px;
+  font-size: 10px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+.menu-sx .fa-caret-down {
+  margin-top: 10px;
 }
 #h-menu {
   font-size: 15px;
   font-weight: 700;
   margin-top: 0px;
-  border-top: 3px solid black;
+  border-top: 1px solid black;
   border-bottom: 1px solid grey;
   padding: 10px 0;
 }
@@ -71,20 +94,157 @@
 .play-cont i {
   color: white;
   position: absolute;
-  bottom: 3px;
-  right: 8px;
+  bottom: 2.5px;
+  right: 7.5px;
 }
-.main-c-top img {
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
   width: 100%;
+  opacity: 0.4;
+  transition: .5s ease;
+  background-image: linear-gradient(lightgrey, black);
+}
+.img-container:hover .overlay {
+  opacity: 0.75;
 }
 .img-container {
   position: relative;
+  width: 100%;
+}
+.img-container img {
   width: 100%;
 }
 .img-container h3 {
   position: absolute;
   left: 10px;
   bottom: 20px;
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+}
+.img-container h4 {
+  color: white;
+  font-size: 15px;
+  margin-left: 6px;
+  margin-top: 2px;
+  font-weight: 700;
+}
+.titolino {
+  position: absolute;
+  left: 10px;
+  bottom: 100px;
+  background: #f27800;
+  height: 20px;
+  width: 60px;
+  border-radius: 1px;
+}
+.fa-book {
+  color: #f27800;
+  margin: 10px 10px;
+}
+.black-belt h3 {
+  color: white;
+  font-size: 13px;
+  margin-top: 10px;
+  font-weight: 700;
+  margin-right: 20px;
+}
+.black-belt a:hover {
+  color: white;
+}
+.head-banner a {
+  width: 60%;
+  margin-top: 15px;
+}
+.main-dx-text h4 {
+  font-size: 13px;
+  margin-top: 10px;
+  color: #f27800;
+  font-weight: 700;
+}
+.main-dx-text h3 {
+  font-size: 22px;
+  font-weight: 700;
+}
+.main-dx-text a {
+  color: black
+}
+.main-dx-text a:hover {
+  color: #f27800;
+  text-decoration: none;
+}
+.main-dx-text p {
+  font-size: 12px;
+}
+.main-dx-text h5 {
+  font-size: 12px;
+  margin-top: 10px;
+  color: #f27800;
+  font-weight: 400;
+}
+.main-dx-text h5 span {
+  font-size: 11px;
+  color: black;
+}
+.main-dx-small-text h4 {
+  font-size: 13px;
+  margin: 0;
+  font-weight: 700;
+  color: black;
+}
+.main-dx-small-text h4:hover, .main-dx-small-text a:hover {
+  text-decoration: none;
+  color: #f27800;
+}
+.banner-iii {
+  margin-top: 30px;
+}
+.small-news h4,.ms-div h4 {
+  font-size: 12px;
+  margin-top: 10px;
+  color: #f27800;
+  font-weight: 900;
+}
+.small-news h3,.ms-div h3 {
+  font-size: 14px;
+  font-weight: 900;
+}
+.small-news p {
+  font-size: 10px;
+}
+.small-news h5,.ms-div h5 {
+  font-size: 12px;
+  margin-top: 10px;
+  color: #f27800;
+  font-weight: 400;
+  border-bottom: 1px solid grey;
+  padding-bottom: 5px;
+}
+.ms-div h5 {
+  border-bottom: none;
+}
+.small-news h5 span,.ms-div h5 span {
+  font-size: 11px;
+  color: black;
+}
+.small-news a,.ms-div a {
+  color: black
+}
+.small-news a:hover,.ms-div a:hover {
+  color: #f27800;
+  text-decoration: none;
+}
+.ms-div img {
+  width: 100%;
+}
+.title-i h3 {
+  font-size: 17px;
+  font-weight: 900;
 }
 /* DIV & CONTAINER  */
 body {
@@ -101,6 +261,9 @@ body {
 .head-logo-cont {
   height: 120px;
   border-bottom: 1px solid lightgrey;
+  justify-content: center;
+}
+.head-banner {
   justify-content: center;
 }
 .active-i {
@@ -141,9 +304,17 @@ body {
   padding: 0 40px;
 }
 .main-dx {
-  background: blue;
-  height: 2000px;
-  padding: 0 40px;
+  padding: 0 15px;
+
+}
+.main-dx .main-dx-cont {
+  flex-direction: column;
+  align-items: center;
+}
+.main-dx .main-dx-text {
+  flex-direction: column;
+  justify-content: flex-start;
+  border-bottom: 1px solid grey;
 }
 .menu-sx {
   height: 100%;
@@ -157,5 +328,40 @@ body {
 }
 .black-belt {
   background: black;
+  justify-content: center;
+}
+.altri-sport {
+  border-top: 1px solid grey;
+}
+.snews-sx {
+  margin: 15px 5px;
+  width: 50%;
+}
+.snews-dx {
+  margin: 15px 5px;
+  width: 50%;
+}
+.banner-ii {
+  border-top: 1px solid grey;
+  padding-top: 10px;
+  margin-top: 30px;
+  margin-left: 20%;
+}
+.middle-snews {
+  margin-left: 20%;
+  border-top: 1px solid grey;
+  padding-top: 10px;
+  justify-content: center;
+}
+.ms-div {
+  height: 150px;
+  width: 25%;
+  margin: 0 5px;
+}
+.title-i {
+  margin-left: 20%;
+  margin-top: 20px;
+  border-top: 3px solid black;
+  padding-top: 10px;
 }
 /* MEDIA QUERY */
