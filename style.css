@@ -43,10 +43,11 @@
   border: 3px solid black;
   position: relative;
 }
-/* .video-i img:hover {
+.video-i:hover {
   transform: scale(1.5);
-  z-index: 1;
-} */
+  z-index: 10;
+  transition: .1;
+}
 .img-fix {
   max-height: 100%;
   min-width: 100%;
@@ -158,8 +159,7 @@
   color: white;
 }
 .head-banner a {
-  width: 60%;
-  margin-top: 15px;
+  margin: 15px 18%;
 }
 .main-dx-text h4 {
   font-size: 13px;
@@ -246,7 +246,7 @@
   font-size: 17px;
   font-weight: 900;
 }
-/* DIV & CONTAINER  */
+/* DIV & CONTAINER ---------------------------------------------------------------- */
 body {
   background: #fde9eb;
 }
@@ -260,7 +260,7 @@ body {
   position: fixed;
   width: 100%;
   top: 0;
-  z-index: 1;
+  z-index: 9999;
   overflow: hidden;
 }
 .head-logo-cont {
