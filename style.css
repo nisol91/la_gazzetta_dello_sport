@@ -246,6 +246,69 @@
   font-size: 17px;
   font-weight: 900;
 }
+.cla-ris-title h3 {
+
+}
+.cla-ris-title h4 {
+  font-size: 12px;
+  font-weight: 900;
+}
+.cla-ris-title h4 span {
+  font-size: 20px;
+  font-weight: 700;
+}
+.cla-ris-title span {
+  color: #f27800;
+}
+.ris-s h5 {
+  font-size: 13px;
+}
+.match-i img {
+  max-width: 30px;
+  max-height: 30px;
+  margin: 0 3%;
+}
+.match-i h3 {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0 3%;
+}
+.match-i h4 {
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0 10%;
+  margin-top: 5px;
+  font-weight: 700;
+}
+.match-i h5 {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0 1%;
+}
+.match-i h4 {
+  width: 5%;
+}
+.match-i h5 {
+  width: 5%;
+}
+.match-i .bol-d {
+  font-weight: 700;
+}
+.title-clas h3 {
+  font-size: 17px;
+  font-weight: 900;
+}
+.class-i h3 {
+  font-weight: 900;
+  font-size: 10px;
+  margin-top: 7px;
+}
+.class-i h5 {
+  font-weight: 900;
+  margin-left: 12%;
+  font-size: 15px;
+  margin-top: 3px;
+}
 /* DIV & CONTAINER ---------------------------------------------------------------- */
 body {
   background: #fde9eb;
@@ -323,7 +386,7 @@ body {
   border-bottom: 1px solid grey;
 }
 .menu-sx {
-  height: 100vh;
+  height: 100%;
   position: sticky;
   z-index: 1;
   top: 60px;
@@ -358,6 +421,7 @@ body {
   border-top: 1px solid grey;
   padding-top: 10px;
   justify-content: center;
+  height: 250px;
 }
 .ms-div {
   height: 150px;
@@ -369,5 +433,46 @@ body {
   margin-top: 20px;
   border-top: 3px solid black;
   padding-top: 10px;
+}
+.title-ii {
+  margin-top: 40px;
+}
+.cla-ris-title {
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+}
+.cla-ris {
+  height: 100px;
+  margin-left: 20%;
+  margin-top: 40px;
+  padding: 0;
+  border-bottom: 3px solid black;
+  height: 690px;
+}
+.data-a {
+  border-bottom: 1px solid lightgrey;
+  height: 30px;
+  margin-top: 20px;
+}
+.match-i {
+  height: 40px;
+  margin-top: 10px;
+  border-bottom: 1px dotted lightgrey;
+}
+.match-i > *{
+  float: left;
+  width: 10%;
+}
+.ris-s {
+  border-right: 1px solid grey;
+  height: 650px;
+}
+.title-clas {
+  border-bottom: 1px solid lightgrey;
+  margin-top: 20px;
+}
+.class-i {
+  height: 40px;
+  width: 50%;
 }
 /* MEDIA QUERY */
