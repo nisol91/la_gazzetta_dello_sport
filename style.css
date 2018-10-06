@@ -519,4 +519,11 @@ body {
     margin-top: 12px;
     margin-left: 2%;
   }
+  .cla-ris {
+    display: block;
+    border-bottom: none;
+  }
+  .ris-s {
+    border-right: none;
+  }
 }
