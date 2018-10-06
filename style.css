@@ -59,6 +59,9 @@
     max-height: 69%;
     min-width: 100%;
 }
+.img-fix-iii {
+  max-height: 118.13px;
+}
 .video-i h3 {
   color: white;
   font-size: 15px;
@@ -249,16 +252,15 @@
   font-size: 17px;
   font-weight: 900;
 }
-.cla-ris-title h3 {
-
-}
 .cla-ris-title h4 {
   font-size: 12px;
   font-weight: 900;
+  margin-top: 5px;
 }
-.cla-ris-title h4 span {
-  font-size: 20px;
+.cla-ris-title h5 {
+  font-size: 18px;
   font-weight: 700;
+  color: #f27800;
 }
 .cla-ris-title span {
   color: #f27800;
@@ -487,6 +489,9 @@ body {
 }
 .class-i {
   height: 40px;
-  width: 50%;
+  width: 100%;
+}
+.si-parla {
+  width: 150px;
 }
 /* MEDIA QUERY */
