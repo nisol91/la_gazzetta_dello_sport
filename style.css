@@ -503,7 +503,6 @@ body {
     display: none;
   }
   .video-i {
-    z-index: 9999;
     width: 23%;
   }
   .nav-sx {
@@ -549,7 +548,6 @@ body {
     display: none;
   }
   .video-i {
-    z-index: 9999;
     width: 30%;
   }
 }
