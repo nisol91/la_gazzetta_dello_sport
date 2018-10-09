@@ -751,3 +751,21 @@ body {
     margin-top: 3px;
   }
 }
+@media (max-width: 350px) {
+  .match-i h3 {
+    font-size: 10px;
+    margin: 5px 7% 0 3%;
+  }
+  /* questa sotto e' una gosinata ma non saprei come fare altrimenti */
+  .head-logo {
+    width: 370px;
+    height: 118px;
+    margin-top: -38px;
+    margin-left: 55px;
+    background: url(https://images2.gazzettaobjects.it/includes2013/LIBS/css/assets/Gazzetta_Elements.svg?v=201502260516) 0 73px no-repeat;
+    background-size: cover;
+  }
+  .head-logo-cont {
+    height: 100px;
+  }
+}
