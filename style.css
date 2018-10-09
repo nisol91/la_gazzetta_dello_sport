@@ -679,10 +679,68 @@ body {
   }
   .foo-t {
     height: 500px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
   }
 }
 @media (max-width: 400px) {
   .video-i {
     width: 80%;
+  }
+  .fa-book {
+    margin: 10px 5px;
+  }
+  .img-container h3 {
+    font-size: 15px;
+    bottom: 5px;
+  }
+  .titolino {
+    bottom: 50px;
+  }
+  .snews-dx-i {
+    width: 90%;
+  }
+  .snews-dx-ii {
+    display: none;
+  }
+  .ms-div-ii {
+    display: none;
+  }
+  .ms-div {
+    width: 90%;
+  }
+  .si-parla {
+    justify-content: flex-end;
+  }
+  .data-a {
+    margin-top: 0;
+  }
+  .title-ii h3 {
+    font-size: 12px;
+  }
+  .title-ii h4 {
+    font-size: 12px;
+    margin: 0;
+  }
+  .title-ii h5 {
+    font-size: 12px;
+  }
+  .match-i h3 {
+    font-size: 10px;
+    margin: 5px 6% 0 3%;
+  }
+  .match-i h5 {
+    font-size: 10px;
+    font-weight: 400;
+    margin: 9px 0% 0 1%;
+    width: 3%;
+  }
+  .class-i h5 {
+    font-weight: 900;
+    margin-left: 10%;
+    font-size: 12px;
+    margin-top: 3px;
   }
 }
