@@ -411,7 +411,7 @@ body {
 }
 .main-cont {
   padding: 30px 65px;
-  height: 2200px;
+  height: auto;
 }
 .main-center {
   padding: 0 40px;
@@ -486,7 +486,7 @@ body {
   border-bottom: 1px solid grey;
 }
 .cla-ris {
-  height: 100px;
+  height: auto;
   margin-left: 20%;
   margin-top: 40px;
   padding: 0;
@@ -509,7 +509,7 @@ body {
 }
 .ris-s {
   border-right: 1px solid grey;
-  height: 650px;
+  height: auto;
 }
 .title-clas {
   border-bottom: 1px solid lightgrey;
