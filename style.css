@@ -53,11 +53,12 @@ a:hover {
   width: 19%;
   border: 3px solid black;
   position: relative;
+  transition: 1s;
 }
 .video-i:hover {
   transform: scale(1.5);
   z-index: 10;
-  transition: .1;
+  transition: 1s;
 }
 .img-fix {
   max-height: 100%;
